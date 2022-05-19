@@ -1,6 +1,6 @@
 const ctx = document.getElementById('myChart').getContext('2d');
-ctx.canvas.width  = window.innerWidth / 2;
-ctx.canvas.height = window.innerHeight / 2;
+ctx.canvas.width  = window.innerWidth * 0.8;
+ctx.canvas.height = window.innerHeight * 0.8;
 const myChart = new Chart(ctx, {
     type: 'radar',
     data: {
